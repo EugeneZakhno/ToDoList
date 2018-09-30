@@ -11,6 +11,7 @@
         <div class="col-lg-10"></div>
         <div class="col-lg-2">
             <h5 style="color: #fff">Created by <a href="mailto:Zohan1234567@gmail.com">Zakhno Yauheni</a></h5>
+            <h5><a href="https://github.com/EugeneZakhno/ToDoList">Watch code on GitHub</a></h5>
         </div>
     </div>
 </div>
