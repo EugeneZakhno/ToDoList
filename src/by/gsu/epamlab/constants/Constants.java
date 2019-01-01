@@ -2,12 +2,12 @@ package by.gsu.epamlab.constants;
 
 public class Constants {
     //DB Constants
-    public static final String DB_URL = "jdbc:mysql://node53842-todolist.mycloud.by/user";
+    public static final String DB_URL = "jdbc:mysql://node54013-todolist.mycloud.by/web";
     //public static final String DB_URL = "jdbc:mysql://localhost:3306/web?useSSL=false";
-    public static final String DB_USER = "user";
-    public static final String DB_PASSWORD = "iQrZkhVizZnWLVAD";
+    public static final String DB_USER = "web";
+    public static final String DB_PASSWORD = "KQordGyKw5hHQEqc";
     // public static final String DB_PASSWORD = "";
-    //public static final String SQL_DRIVER = "org.gjt.mm.mysql.Driver";
+    // public static final String SQL_DRIVER = "org.gjt.mm.mysql.Driver";
     public static final String SQL_DRIVER = "com.mysql.jdbc.Driver";
     //DB Queries
     public static final String GET_ALL_TASKS = "SELECT * FROM web.tasks WHERE fixed = 0 AND deleted = 0 AND login = ?";
