@@ -1,4 +1,3 @@
-# ToDoList
-This is application for saving your notes
-===========================================
+# ToDoList. This is application for saving your notes
+======================================================
 
