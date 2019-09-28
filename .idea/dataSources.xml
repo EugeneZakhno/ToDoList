@@ -4,7 +4,7 @@
     <data-source source="LOCAL" name="web@node54013-todolist.mycloud.by" uuid="3947ffb5-2946-4a92-bb23-837684c389b5">
       <driver-ref>mysql</driver-ref>
       <synchronize>true</synchronize>
-      <jdbc-driver>org.gjt.mm.mysql.Driver</jdbc-driver>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
       <jdbc-url>jdbc:mysql://node54013-todolist.mycloud.by/web</jdbc-url>
       <driver-properties>
         <property name="autoReconnect" value="true" />
@@ -13,6 +13,7 @@
         <property name="characterEncoding" value="utf8" />
         <property name="characterSetResults" value="utf8" />
         <property name="yearIsDateType" value="false" />
+        <property name="useSSL" value="true" />
       </driver-properties>
     </data-source>
   </component>
