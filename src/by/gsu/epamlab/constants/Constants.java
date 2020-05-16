@@ -2,11 +2,11 @@ package by.gsu.epamlab.constants;
 
 public class Constants {
     //DB Constants
-    public static final String DB_URL = "jdbc:mysql://node54013-todolist.mycloud.by/web";
-    //public static final String DB_URL = "jdbc:mysql://localhost:3306/web?useSSL=false";
+    //public static final String DB_URL = "jdbc:mysql://node54013-todolist.mycloud.by/web";
+    public static final String DB_URL = "jdbc:mysql://localhost:3306/web?useSSL=false";
     public static final String DB_USER = "web";
-    public static final String DB_PASSWORD = "KQordGyKw5hHQEqc";
-    // public static final String DB_PASSWORD = "";
+   // public static final String DB_PASSWORD = "KQordGyKw5hHQEqc";
+     public static final String DB_PASSWORD = "";
     // public static final String SQL_DRIVER = "org.gjt.mm.mysql.Driver";
     public static final String SQL_DRIVER = "com.mysql.jdbc.Driver";
     //DB Queries
